@@ -21,3 +21,6 @@ Thumbs.db
 # 環境設定檔
 .env
 .env.*
+
+# 記憶檔案
+memory/
