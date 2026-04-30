@@ -12,9 +12,9 @@ agent = SimpleAgent(
     system_prompt="你是一個有用的AI助手"
 )
 
-# 基础对话
+# 基本對話
 response = agent.run("你好！請介紹一下自己")
 print(response)
 
-# 查看对话历史
+# 查看歷史紀錄
 print(f"歷史消息數: {len(agent.get_history())}")
