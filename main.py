@@ -2,7 +2,8 @@ from hello_agents import SimpleAgent, HelloAgentsLLM
 from core.config import settings
 
 
-llm = HelloAgentsLLM(model=settings.llm.model, api_key=settings.llm.api_key, base_url=settings.llm.base_url,
+llm = HelloAgentsLLM(model=settings.llm.model, api_key=settings.llm.api_key,
+                     base_url=settings.llm.base_url,
                      timeout=settings.llm.timeout)
 
 # 創建SimpleAgent
